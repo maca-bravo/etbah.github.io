@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+.body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-image: url(../imgs/silk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6em;
+    padding: 3em;
+    margin: 0 0 3em 0;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+.productos {
+    width: 80%;
+    margin: auto;
+}
+
+.productos td {
+    width: 50%;
+}
+
+.productos img {
+    width: 100%;
+    border: 0px;
+}
+
+.descripcion {
+    margin: 0 0 0 3em;
+}
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: #ececec;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    margin: 3em 0 0 0;
+}
+
+
+
+

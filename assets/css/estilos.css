@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: black !important;
+}
+
+#header {
+  background-image: url("../img/fondo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33.5rem;
+}
+
+.textoheader {
+  float: left;
+  width: 45%;
+}
+
+.formacion {
+  float: left;
+  width: 45%;
+  height: 37rem;
+  display: flow-root;
+}
+
+.cardsheader {
+  float: right;
+  width: 45%;
+}
+
+.formulario {
+  float: right;
+  width: 45%;
+  background-color: #fbfb07;
+  padding: 3rem;  
+  height: 37rem;
+  display: flow-root;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+}
+
+.card-img-top {
+  object-fit: cover!important;
+  width: 100%;
+  height: 10rem;
+}
+
+
+
+.nombre {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+}

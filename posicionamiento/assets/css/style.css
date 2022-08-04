@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Header & Main */
+
+.iguanas {
+    text-align: center;
+}
+
+.iguanas h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 47px;
+    font-family: Raleway;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.descripcion {
+    margin: 70px 150px;
+    display: flow-root;
+}
+
+.descripcion .textodescripcion p {
+    width: 45%;
+    color: white;
+    float: left;
+    padding: 70px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Raleway;
+}
+
+.descripcion .imagendescripcion img {
+    width: 45%;
+    float: right;
+}
+
+/* Características */
+
+.caracteristicas {
+    width: 100%;
+    height: 350px;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #1E1A13;
+}
+
+.titulo {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    font-family: Raleway;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.caracteristica {
+    display: inline-block;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: Raleway;
+}
+
+.caracteristica i {
+    padding-bottom: 15px;
+}
+
+/* Galería */
+
+.galeria {
+    width: 100%;
+    text-align: center;
+}
+
+.iguanagaleria {
+    display: inline-block;
+    margin: 70px 20px;
+}
+
+.iguanagaleria img {
+    width: 350px;
+    height: 200px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #1E1A13;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: Raleway;
+    color: white;
+    padding-top: 35px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p:hover{
+    color: green;
+    font-weight: bold;
+}
+
+
